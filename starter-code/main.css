@@ -1,0 +1,57 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF*/
+/* #container{
+    
+    margin:auto;
+     height: 100%;
+   
+    } */
+    * {
+        margin: auto;
+        border: solid 1px grey;
+        display: block;
+        size: 100%;
+    }
+    
+    body {
+        font-size: 14px;
+        background-color: #fff;
+    }
+    
+    #container {
+        height: 100%;
+        margin: auto;
+    }
+    
+    header {
+        text-align: center;
+        
+        
+    }
+    
+    
+    nav{
+        display: flex;
+        align-self: baseline;
+            
+     } 
+    #containernav{
+        
+
+    }
+  
+    #logo {
+        height: 20px;
+    }
+    
+    #imgprincipal {
+        width: 1500px;
+    }
+    
+    main {
+        height: 100%;
+    }
