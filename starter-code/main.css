@@ -1,57 +1,110 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF*/
+/*Colors: Text: 1A1A1A Green: #00B172 White: #FFF*/
 /* #container{
-    
-    margin:auto;
+     margin:auto;
      height: 100%;
-   
-    } */
-    * {
-        margin: auto;
-        border: solid 1px grey;
-        display: block;
-        size: 100%;
-    }
-    
-    body {
-        font-size: 14px;
-        background-color: #fff;
-    }
-    
-    #container {
-        height: 100%;
-        margin: auto;
-    }
-    
-    header {
-        text-align: center;
-        
-        
-    }
-    
-    
-    nav{
-        display: flex;
-        align-self: baseline;
-            
-     } 
-    #containernav{
-        
+}
+ */
+ * {
+    margin: auto;
+    border: solid 1px grey;
+   /* display: block;
+    size: 100%;
+    */
+    font-family: 'Montserrat' ;
+}
 
+body {
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+} 
+
+    #container {
+        max-width: 1200px; 
+        margin: auto;
+    
     }
+    
+
+
+header {
   
-    #logo {
-        height: 20px;
-    }
+    text-align: right;
+    background-color:whitesmoke;
+}   
+
+/* #menubar {
+    position: fixed;
+   
+    padding-right: 60px;
+} */
+
+header nav {
+    position: fixed;
+    background-color:whitesmoke;
+  
+    padding-right: 25%; 
     
-    #imgprincipal {
-        width: 1500px;
-    }
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    text-align: left;
+    padding-right: 300px;
+    margin-left: 5px;
+    border-right: 200px;
+    line-height: 2rem;
+  padding-left: 50px;
+}
+
+
+
+ ul{
+   text-align: right;
+  size: 40px;
+    display: inline-block;
+   
+   
+   padding-top: 18px;
+   padding-right: 18px;
+  
+
+}
+
+nav ul li {
+   display: inline;
+    line-height: 2.8rem;
+   padding-top: 20px;
+   font-size: medium;
+   font-weight: 5px;
+   overflow: hidden;
+   white-space: nowrap;
+   
+   
+   
+}
+
+li a {
+
+}
+
+#imgprincipal {
+    width: 100%;
     
-    main {
-        height: 100%;
-    }
+}
+ main {
+   
+}
+
+
+
+
+
+   
+
+
+    
+    
+  
+  
